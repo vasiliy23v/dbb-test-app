@@ -1,0 +1,22 @@
+.creater {
+    width: 140px;
+    height: 76px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 1px solid black;
+
+    color: black;
+
+    &:hover {
+        background-color: #0c0c0c26;
+    }
+    svg {
+        height: 24px;
+        width: 24px;
+    }
+    cursor: pointer;
+}
